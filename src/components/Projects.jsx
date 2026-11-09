@@ -5,20 +5,31 @@ import { motion } from "framer-motion";
 import { ExternalLink, Code2, ArrowUpRight } from "lucide-react";
 
 const projects = [
+
   {
     name: "A Saddique",
     category: "Business Website",
     description:
       "A professional business website with modern design, product presentation and responsive layouts.",
-    tech: ["Next.js", "React", "Tailwind CSS"],
+    tech: ["Next.js", "React.js", "Tailwind CSS", "bcrypt", "Node.js", "MongoDB", "Mongoose", "JWT", "Cloudinary and REST APIs"],
     link: "https://www.asaddique.com",
   },
+
+    {
+    name: "Pizza Delivery Website",
+    category: "Business Website",
+    description:
+      "Developed a complete Pizza Delivery Website using Next.js with a modern and responsive design. The project includes a customer website and a fully functional admin dashboard.",
+    tech: ["Next.js", "React.js", "bcrypt", "Tailwind CSS", "Node.js", "MongoDB", "Mongoose", "JWT", "Cloudinary and REST APIs"],
+    link: "https://pizzadeliverywebsite.vercel.app",
+  },
+  
   {
     name: "TopX Store",
     category: "E-commerce",
     description:
       "An online fashion store with product listings, shopping cart, authentication and order management.",
-    tech: ["Next.js", "MongoDB", "Cloudinary"],
+    tech: ["Next.js", "React.js", "Tailwind CSS", "Node.js", "bcrypt", "MongoDB", "Mongoose", "JWT", "Cloudinary and REST APIs"],
     link: "https://www.topxstore.com",
   },
   {
